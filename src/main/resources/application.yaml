@@ -1,0 +1,9 @@
+spring:
+  neo4j:
+    url: bolt://localhost:7687
+    db: neo4j
+    password: test
+server:
+  port: 8088
+  error:
+    include-message: always
